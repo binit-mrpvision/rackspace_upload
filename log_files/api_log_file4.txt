@@ -1,0 +1,6 @@
+\r\nMethod : POST
+Request Parameter : {"title":"Unconditional Love .mp4","company":"54987ed197f8156178fdbc2d","migrate_company_id":"23","migrate_video_id":"4232","migrate_source_file":"http:\/\/media.dotstudiopro.com\/vod\/mousetap\/4232\/4232.m3u8"}
+date : 2014-12-29 20:26:43
+\r\nMethod : POST
+Response of api : {"access":"public","geoblock":"ALL","owner_id":1,"duration":0,"encoding_progress":100,"encoding_status":"Migrated","source":"File Upload","status":"Uploaded","thumb":"https:\/\/image.dotstudiopro.com\/default_video_thumb","thumbs":[],"poster":null,"wallpaper":null,"slug":"","updated_at":"2014-12-29 14:55:28","created_at":"2014-12-29 14:55:28","_id":"54a16b6097f815a0694b7dfc","migrate_path":"files\/company\/\/assets\/videos\/54a16b6097f815a0694b7dfc\/vod"}
+date : 2014-12-29 20:26:45

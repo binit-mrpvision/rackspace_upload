@@ -13,9 +13,9 @@ class DatabaseConnection {
     function __construct() {
         // Process the config file and dump the variables into $config
         $this->dbHost = 'localhost';
-        $this->dbName = 'dotstudio_version1';
+        $this->dbName = 'dotstudio_live';
         $this->dbUser = 'root';
-        $this->dbPass = '';
+        $this->dbPass = 'Ossc@2013';
 
         try {
             $this->db = new PDO('mysql:host='.$this->dbHost.';dbname='.$this->dbName.';charset=utf8', $this->dbUser, $this->dbPass);
