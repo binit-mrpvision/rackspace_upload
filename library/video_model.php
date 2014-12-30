@@ -14,6 +14,10 @@ class video_model extends DatabaseConnection {
         // Process the config file and dump the variables into $config
         parent::__construct();
     }
+    
+    /**
+     * fetch all records from Video table
+     */
     function fetch_all_records()
     {
         $return_array = array();
@@ -25,6 +29,22 @@ class video_model extends DatabaseConnection {
         }
         return $return_array;
     }
+    
+    /**
+     * fetch all records from Video table
+     */
+    function fetch_record_by_id($id)
+    {
+        $return_array = array();
+        try {
+            $sql_query ='select * from videos where id='.$id;
+            $return_array = $this->fetch_single_record($sql_query);
+        } catch (Exception $e) {
+            var_dump($e->getMessage());
+        }
+        return $return_array;
+    }
+    
     /**
      * Function to fetch the company id 23 records and file extension .m3u8
      * @return type
